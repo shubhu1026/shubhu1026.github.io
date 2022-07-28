@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Leafio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">HOME</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="leafio.html">Leafio</a></li>
+							<li><a href="projects.html">Other Projects</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/shubhu1026/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/shubhu1026" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Leafio</h1>
+									<p>Leafio is an Android app designed primarily for farmers to help them reduce their workload.<br/> Farmers can use the app to take a photo of their plant's leaves, and the app will tell them whether the plant is healthy or diseased.</p>
+								</header>
+								<div class="image main"><img src="images/leafio all.jpg" alt="" /></div>
+								<p>The Main Activity offers the user the option of accessing an image from their gallery or capturing an image with their camera. The user can then click the Predict button to make an API call to our Flask App, which is hosted on Heroku. Our Convolutional Neural Network (CNN) Model processes the image after it has been uploaded to the server. After the Model has finished processing and identifying the leaf disease, the result is received in JSON format by the Android app.</p>
+                                <p>Retrofit was used to make a server call and receive a response via an API (Application Program Interface) call.
+                                    Following that, GSON was used to parse the response.</p>
+
+                                <ul class="actions special">
+                                    <li><a href="index.html" class="button large">Go Back</a></li>
+                                </ul>
+
+                            </section>               
+
+					</div>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <section class="split contact">
+                        <section>
+                            <h3>Email</h3>
+                            <p><a href="#">shubhu.p2000@gmail.com</a></p>
+                        </section>
+                        <section>
+                            <h3>Social</h3>
+                            <ul class="icons alt">
+                                <li><a href="https://www.linkedin.com/in/shubhu1026/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://github.com/shubhu1026" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </section>
+                    </section>
+                </footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
