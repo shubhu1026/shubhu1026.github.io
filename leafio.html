@@ -37,12 +37,11 @@
 							<section class="post">
 								<header class="major">
 									<h1>Leafio</h1>
-									<p>Leafio is an Android app designed primarily for farmers to help them reduce their workload.<br/> Farmers can use the app to take a photo of their plant's leaves, and the app will tell them whether the plant is healthy or diseased.</p>
+									<p>Leafio, an Android app thoughtfully tailored for farmers to ease their workload. With Leafio, farmers can simply snap photos of their plant's leaves, and the app provides instant feedback on the plant's health, identifying potential diseases and issues.</p>
 								</header>
 								<div class="image main"><img src="images/leafio all.jpg" alt="" /></div>
-								<p>The Main Activity offers the user the option of accessing an image from their gallery or capturing an image with their camera. The user can then click the Predict button to make an API call to our Flask App, which is hosted on Heroku. Our Convolutional Neural Network (CNN) Model processes the image after it has been uploaded to the server. After the Model has finished processing and identifying the leaf disease, the result is received in JSON format by the Android app.</p>
-                                <p>Retrofit was used to make a server call and receive a response via an API (Application Program Interface) call.
-                                    Following that, GSON was used to parse the response.</p>
+								<p>In the Main Activity, users have the flexibility to either select an image from their gallery or capture a new one using their camera. Upon choosing their preferred image, clicking the "Predict" button initiates an API call to our Flask App, hosted on Heroku. This Flask App employs a Convolutional Neural Network (CNN) Model to process the uploaded image. Once the Model completes its analysis and identifies the leaf disease, the Android app receives the results in JSON format.</p>
+                                <p>We utilized Retrofit to establish a server call and retrieve a response through an API (Application Programming Interface) request. Subsequently, GSON was employed to efficiently parse this response.</p>
 
                                 <ul class="actions special">
                                     <li><a href="index.html" class="button large">Go Back</a></li>
