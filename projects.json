@@ -38,8 +38,7 @@
     "results": "Achieved mAP@0.5: 82%, mAP@0.5–0.95: 0.51, precision: 0.85, and recall: 0.71. Reduced inference latency by 40%, improved real-time tracking stability by 30%, and demonstrated a scalable solution for urban trash detection.",
     "image": "/projects/trash_detection.jpg",
     "tags": ["YOLOv11n", "Computer Vision", "Python", "OpenCV", "Deep Learning", "Embedded Deployment"],
-    "demoUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "https://github.com/shubhu1026/Kevares-Capstone-Project"
   },
   {
     "id": 6,
