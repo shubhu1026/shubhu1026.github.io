@@ -12,17 +12,14 @@ export const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6 ">
                     <h3 className="text-2xl font-semibold">
-                        Machine Learning Engineer | AI Engineer
+                        Software Engineer | Backend & Distributed Systems
                     </h3>
                     <p className="text-muted-foreground">
-                        I specialize in building, training, and deploying intelligent systems using 
-                        modern machine learning and artificial intelligence technologies. My focus 
-                        is on creating solutions that are production-ready, scalable, and impactful..
+                        I’m a Software Engineer focused on designing and building scalable software systems, from distributed backend services to cloud-native applications and intelligent data-driven features. I care about system design, reliability, performance, and building products that work in real-world environments.
                     </p>
 
                     <p className="text-muted-foreground">
-                        With hands-on experience in model development, cloud deployment, and MLOps, 
-                        I enjoy transforming data into reliable, real-world AI applications that drive results.
+                        I enjoy working across the full software stack - from designing APIs and backend architectures to deploying cloud systems and integrating data/AI pipelines. My focus is on building clean, scalable, and production-ready systems with strong engineering fundamentals.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -31,7 +28,7 @@ export const AboutSection = () => {
                             Get in touch
                         </a>
 
-                        <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-200">
+                        <a href="resume/Shubham_Patel_Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-200">
                             {" "}
                             Download CV
                         </a>
@@ -45,10 +42,9 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Model Development</h4>
+                                <h4 className="font-semibold text-lg"> Software Systems Engineering</h4>
                                 <p className="text-muted-foreground">
-                                    Designing and training machine learning models with Python, TensorFlow, 
-                                    PyTorch, and Scikit-learn to build reliable AI solutions.
+                                    Designing scalable, production-grade software systems including APIs, services, and modular backend architectures. Focused on reliability, performance, and clean system design.
                                 </p>
                             </div>
                         </div>
@@ -59,10 +55,9 @@ export const AboutSection = () => {
                                 <User className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Data & Feature Engineering</h4>
+                                <h4 className="font-semibold text-lg"> Distributed & Cloud Systems</h4>
                                 <p className="text-muted-foreground">
-                                    Cleaning, transforming, and optimizing data pipelines to improve model 
-                                    accuracy and efficiency across diverse AI applications.
+                                    Building cloud-native and distributed applications using containerized services, event-driven workflows, and scalable data processing systems.
                                 </p>
                             </div>
                         </div>
@@ -73,10 +68,9 @@ export const AboutSection = () => {
                                 <Briefcase className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Deployment & MLOps</h4>
+                                <h4 className="font-semibold text-lg"> Intelligent Software Systems</h4>
                                 <p className="text-muted-foreground">
-                                    Deploying AI models to production with cloud platforms, APIs, and 
-                                    automated pipelines to ensure scalability and performance.
+                                    Integrating ML models, LLMs, and retrieval systems into production software to build intelligent features within real-world applications.
                                 </p>
                             </div>
                         </div>

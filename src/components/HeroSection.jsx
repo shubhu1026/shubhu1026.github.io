@@ -15,9 +15,7 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-large md:text-xl text-muted-foreground max-2-2-xl mx-auto opacity animate-fade-in-delay-3">
-                    I specialize in Machine Learning and Artificial Intelligence, building data-driven solutions that 
-                    combine research with real-world applications. My focus is on developing 
-                    intelligent systems that are accurate, scalable, and impactful.
+                    Software Engineer focused on building scalable software systems, distributed applications, and end-to-end products. I design and develop reliable systems across backend services, data pipelines, and cloud infrastructure using Python, with experience deploying production applications on AWS and Docker. I also build AI-powered features such as RAG pipelines and LLM integrations where they meaningfully enhance product functionality.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
